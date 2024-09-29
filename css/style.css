@@ -18,10 +18,11 @@ body {
 .navbar-nav .nav-link {
     font-size: 0.9rem;
     font-weight: bold;
-    color: #333;
+    color: #9a00b9;
+    margin: 10px;
 }
 .navbar-nav .nav-link:hover {
-    color: #007bff;
+    color: #000000;
 }
 
 
@@ -52,7 +53,7 @@ body {
 .hero-section .btn {
     padding: 1rem 3rem;
     font-size: 1.1rem;
-    background-color: #007bff;
+    background-color: #d100c7;
     border: none;
     color: white;
     font-weight: bold;
@@ -66,7 +67,7 @@ body {
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
     text-transform: uppercase;
-    color: #007bff;
+    color: #550051;
     font-weight: bold;
 }
 .content-section p {
@@ -78,14 +79,14 @@ body {
     font-weight: bold;
     font-size: 0.85rem;
     color: #f7f8f9;
-    border: 2px solid #007bff;
+    border: 2px solid #d100c7;
     padding: 0.5rem 1.5rem;
     display: inline-block;
     margin-top: 1rem;
     text-decoration: none;
 }
 .content-section a:hover {
-    background-color: #007bff;
+    background-color: #d100c7;
     color: rgba(255, 255, 255, 0.977);
 }
 
@@ -121,7 +122,7 @@ body {
     font-size: 1.3rem;
     margin-bottom: 0.8rem;
     text-transform: uppercase;
-    color: #007bff;
+    color: #d100c7;
 }
 .bottom-section p {
     font-size: 0.9rem;
@@ -144,7 +145,7 @@ body {
     font-size: 0.85rem;
 }
 .footer a:hover {
-    color: #007bff;
+    color: #d100c7;
 }
 
 /* Ajustes para pantallas pequeñas */
@@ -163,7 +164,7 @@ body {
 /* Ajustes para el Slider de la sección de héroe */
 .carousel-item {
     height: 700px;
-    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro para hacer más legible el texto */
+    background-color: rgba(0, 0, 0, 0); /* Fondo oscuro para hacer más legible el texto */
     position: relative;
     overflow: hidden;
 }
@@ -202,6 +203,6 @@ body {
     padding: 1rem 3rem;
     font-size: 1.2rem;
     z-index: 1;
-    background-color: #007bff;
+    background-color: #d100c7;
     border: none;
 }
